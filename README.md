@@ -4,7 +4,7 @@
 
 ### Imagen de diseño del proyecto en Figma:
 
-![alt text](https://github.com/DieFleitas/landing-page-G4-TZUZUL/blob/main/img/dise%C3%B1o.png "Diseño del proyecto")
+![alt text](https://github.com/DieFleitas/landing-page-G4-TZUZUL/blob/main/dise%C3%B1o.png "Diseño del proyecto")
 
 <!-- ### Integrantes:
 
