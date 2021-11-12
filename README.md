@@ -6,9 +6,9 @@
 
 ![alt text](https://github.com/DieFleitas/landing-page-G4-TZUZUL/blob/main/img/dise%C3%B1o.png "Diseño del proyecto")
 
-### Integrantes:
+<!-- ### Integrantes:
 
 - Integrante 1
 - Integrante 1
 - Integrante 1
-- Integrante 1
+- Integrante 1 -->

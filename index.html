@@ -4,38 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Landing Nro. 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="" alt="logo">
-        </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Somos</a>
-            <a href="#">Nosotros</a>
+            <div class="logo">
+                <img src="4.png" alt="">
+            </div>
+            <div class="enlaces">
+                <a href="/">Inicio</a>
+                <a href="#form">Contacto</a>
+                <a href="#nosotros">Nosotros</a>
+            </div>
         </nav>
     </header>
-
-    <section>
-        <div class="description">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iusto dicta. Laudantium quo odio commodi temporibus dolores! Blanditiis sit aliquam nostrum cum itaque, cumque doloribus incidunt fuga, nihil, a voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iusto dicta. Laudantium quo odio commodi temporibus dolores! Blanditiis sit aliquam nostrum cum itaque, cumque doloribus incidunt fuga, nihil, a voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iusto dicta. Laudantium quo odio commodi temporibus dolores! Blanditiis sit aliquam nostrum cum itaque, cumque doloribus incidunt fuga, nihil, a voluptatibus?</p>
+    <div class="contenedor">
+        <div class="main">
+            <div class="descripcion">
+                <h1>Grupo Nro. 4</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto saepe quam illo porro repudiandae officia, consequatur modi minima? Odit dignissimos ab soluta mollitia vel! Voluptatem error sequi atque nesciunt quo!</p>
+            </div>
+            <div class="formulario">
+                <form id="form">
+                    <label for="nombre">
+                        Nombre y Apellido 
+                        <input type="text" name="nombre" required>
+                    </label> 
+                    <label for="direccion">
+                        Dirección
+                        <input type="text" name="direccion" required>
+                    </label> 
+                    <label for="correo">
+                        Correo Electrónico
+                        <input type="email" name="correo" required>
+                    </label> 
+                    <label for="comentarios">
+                        Comentarios
+                        <textarea name="comentarios" cols="30" rows="10"></textarea>
+                    </label>
+                    <input type="submit" class="btn">
+                </form>
+            </div>
         </div>
-        <div class="form">
-            <form>
-                <input type="text">
-                <input type="text">
-                <button>ENVIAR</button>
-            </form>
+        <div class="nosotros" id="nosotros">
+            <h2>Nosotros</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt tempora consequatur ut similique a cumque debitis atque maxime voluptatibus! At eveniet accusamus, aliquam perspiciatis consectetur praesentium ipsam asperiores nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe quas nobis iusto neque numquam rerum ullam, expedita laborum libero veniam, itaque, exercitationem repellat perspiciatis. Aperiam sunt maxime aliquam voluptatum minus?</p>
         </div>
-    </section>
-
+    </div>
     <footer>
-        <p>Hecho por el grupo 4</p>
+        <p>Todos los derechos reservados al Grupo Nro. 4. 2021. &copy;</p>
     </footer>
 </body>
 </html>
+
